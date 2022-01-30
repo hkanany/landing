@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  body, html {
-  height: 100%;
-  margin: 0;
-}
-.responsive {
-  width: 100%;
-  height: auto;
-  max-height: 100%;
-}
-
-.visible-mobile {
-  display: none !important;
-}
-
-@media (max-width: 489px) {
-  .visible-mobile {
-    display: inline !important;
+  <meta property="og:title" content="Brito">
+  <meta property="og:image" content="https://getbrito.com/Landing-page-chefs-04.png">
+  <meta property="og:description" content="This is just an example page.">
+  <meta property="og:url" content="https://getbrito.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brito</title>
+  <style>
+    body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
   }
 
-  .hidden-mobile {
+  .visible-mobile {
     display: none !important;
   }
-}
-</style>
+
+  @media (max-width: 489px) {
+    .visible-mobile {
+      display: inline !important;
+    }
+
+    .hidden-mobile {
+      display: none !important;
+    }
+  }
+  </style>
 </head>
 <body>
   <img src="./Landing-page-chefs-04.png" alt="houdini" class="visible-mobile responsive">
