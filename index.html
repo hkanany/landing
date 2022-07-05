@@ -17,26 +17,57 @@
   .responsive {
     width: 100%;
     height: auto;
-    max-height: 100%;
   }
 
-  .visible-mobile {
-    display: none !important;
+  footer{
+    text-align: center;
+    padding: 40px;
+  }
+  .contact_us{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 85px;
+    text-align: center;
+
+    color: #512EFF;
   }
 
-  @media (max-width: 489px) {
-    .visible-mobile {
-      display: inline !important;
-    }
+  .contact_us_address{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    /* or 180% */
 
-    .hidden-mobile {
-      display: none !important;
-    }
+    text-align: center;
+
+    /* Brito Blue */
+
+    color: #512EFF;
+
   }
   </style>
 </head>
 <body>
-  <img src="./Iphone-X-screen.png" alt="houdini" class="visible-mobile responsive">
-  <img src="./Landing-page-chefs-04.png" alt="houdini" class="hidden-mobile responsive" >
+  <img src="./Brito.png" class="responsive" >
+  <footer>
+    <span class="contact_us">Contact Us</span>
+    <br>
+    <span class="contact_us_address">
+      <a href="mailto:team@getbrito.com ">team@getbrito.com</a><br>
+      12 Refaa Street, Heliopolis, Cairo <br>
+      (+20) 2 2452 6495
+    </span>
+    <br>
+    <a href="./terms.html" target="_blank">Terms and conditions</a> 
+    <a href="./privacy.html" target="_blank">Privacy policy</a>
+    
+    <br>
+    <img src="./footer_logo.png" style="width: 200px;">
+  </footer>
 </body>
 </html>
